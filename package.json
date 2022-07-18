@@ -1,0 +1,14 @@
+{
+  "name": "es6_examples",
+  "version": "1.0.0",
+  "author": "Sergei Semenov <dp120291ssv@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "babel app/js -d app/dist --presets env -w"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
+  }
+}
